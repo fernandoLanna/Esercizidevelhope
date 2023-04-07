@@ -11,21 +11,16 @@
         <h1>NavBar</h1>
         <nav>
             <div class="navbar">
-                <h1></h1>
-                <ul class="horizontal">
-                    <li>
-                        <a class="active" href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#link">Link</a>
-                    </li>
-                    <li>
-                        <button class="dropbtn">Dropdown</button>
-                    </li>
-                    <li>
-                        <button disabled>Disabled</button>
-                    </li>
-                </ul>
+                <a class="active" href="#home">Home</a>
+                <a href="#link">Link</a>
+                <label for="dropdown">Dropdown:</label>
+                    <select name="dropdown" id="link">
+                        <option value="contantti">Contatti</option>
+                        <option value="info">info</option>
+                    </select>
+                    
+                </select>
+                <button disabled>Disabled</button>     
             </div>
             <div>
                 <form class="example">
