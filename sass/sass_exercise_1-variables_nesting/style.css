@@ -1,0 +1,35 @@
+body {
+  border: 1px solid red;
+}
+
+div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  border-bottom: 1px solid blue;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+article {
+  border: 1px solid green;
+  padding: 15px;
+}
+article:nth-child(odd) {
+  color: blue;
+}
+article:nth-child(even) {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
